@@ -1,3 +1,8 @@
+:root {
+    --light-bgcolor: #ffffff;
+    --header-bgcolor: #b4d0e7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +46,10 @@
     border: 1px solid black;
 }
 
+.big_container {
+    height: 600px;
+}
+
 /* end to remove  */
 
 .row {
@@ -62,10 +71,26 @@
     text-align: right;
 }
 
-
-
-  .col_50 {
+.col_50 {
       width: 50%;
+}
+
+.big_container {
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+  /* #endregion Utility  */
+
+  /* #region ****---> Header <---**** */
+
+  header {
+    background-color: var(--header-bgcolor);
   }
 
-  /* #endregion Utility  */
+  .navbar .col_50 {
+      background-color: var(--light-bgcolor);
+  }
+
+
+  /* #endregion ****---> Header <---**** */
