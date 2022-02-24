@@ -78,13 +78,21 @@
     border: 2px solid black;
 }
 
+.marg {
+    margin: 2rem;
+}
+
 /* end to remove  */
 
 .row {
     content: '';
     display: table;
     clear: both;
-    width: 100%; 
+    width: 90%; 
+}
+
+.full_row {
+    width: 100%;
 }
 
 [class^="col_"] {
@@ -155,7 +163,7 @@
   /* #region ****---> Main <---**** */
 
   .title_dropbox_users {
-      width: 1200px; 
+      width: 1076px; 
   }
 
   /* #endregion ****---> Main <---**** */
