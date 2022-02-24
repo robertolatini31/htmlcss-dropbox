@@ -46,8 +46,20 @@
     height: 80px;
 }
 
+.h_200 {
+    height: 200px;
+}
+
+.h_400 {
+    height: 400px;
+}
+
 .h_600 {
     height: 600px;
+}
+
+.h_800 {
+    height: 800px;
 }
 
 .h_1200 {
@@ -57,13 +69,14 @@
 .bord {
     border: 1px solid black;
 }
+
 /* end to remove  */
 
 .row {
     content: '';
     display: table;
     clear: both;
-    width: 100%;
+    width: 90%; /* ******** TO CHANGE ** TO CHANGE *********** */
 }
 
 [class^="col_"] {
@@ -80,6 +93,14 @@
 
 .col_50 {
       width: 50%;
+}
+
+.col_33 {
+    width: 33.3333%; 
+}
+
+.col_100 {
+    width: 100%; 
 }
 
 .center {
@@ -112,8 +133,6 @@
 
   /* #region ****---> Main <---**** */
 
-  .title {
-      width: 80%;
-  }
+  
 
   /* #endregion ****---> Header <---**** */
