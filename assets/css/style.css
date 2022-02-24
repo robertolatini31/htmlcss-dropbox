@@ -33,7 +33,11 @@
 }
 
 .orange {
-    background-color: rgba(255, 184, 52, 0.74);
+    background-color: rgb(255, 184, 52);
+}
+
+.violet {
+    background-color: violet;
 }
 
 .navbar .col_50 {
@@ -48,6 +52,10 @@
 
 .h_200 {
     height: 200px;
+}
+
+.h_300 {
+    height: 300px;
 }
 
 .h_400 {
@@ -67,7 +75,7 @@
 }
 
 .bord {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 /* end to remove  */
@@ -91,12 +99,20 @@
     text-align: right;
 }
 
+.col_33 {
+    width: 33.3333%; 
+}
+
+.col_40 {
+    width: 40%;
+}
+
 .col_50 {
       width: 50%;
 }
 
-.col_33 {
-    width: 33.3333%; 
+.col_60 {
+    width: 60%;
 }
 
 .col_100 {
