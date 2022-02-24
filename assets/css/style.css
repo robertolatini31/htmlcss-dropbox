@@ -2,12 +2,14 @@
     --light-bgcolor: #ffffff;
     --header-bgcolor: #b4d0e7;
     --footer-bgcolor: #000000;
+    --btn-bgcolor: #0061ff;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -39,12 +41,6 @@
 
 .violet {
     background-color: violet;
-}
-
-.navbar .col_50 {
-    height: 68px;
-    margin: 5px 0;
-    border: 1px solid black;
 }
 
 .h_80 {
@@ -85,6 +81,16 @@
 
 /* end to remove  */
 
+.btn_small {
+    background-color: var(--btn-bgcolor);
+    color: white;
+    padding: 4px 13px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
 .row {
     content: '';
     display: table;
@@ -98,7 +104,6 @@
 
 [class^="col_"] {
     float: left;
-    border: 2px solid white; /* to removeeeee */
 }
 
 .text_left {
@@ -149,38 +154,63 @@
     width: 1200px;
 }
 
-  /* #endregion Utility  */
+/* #endregion Utility  */
 
 
 
-  /* #region ****---> Header <---**** */
+/* #region Common  */
 
-  header {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* #endregion Common  */
+
+
+
+/* #region ****---> Header <---**** */
+
+header {
     background-color: var(--header-bgcolor);
+}
+
+.navbar .row {
+    padding: 1rem;
   }
 
-  .navbar .col_50 {
-      background-color: var(--light-bgcolor);
-  }
+.navbar {
+    background-color: var(--light-bgcolor);
+}
+
+.navbar img {
+    width: 90px;
+    vertical-align: middle;
+}
+
+.navbar a {
+    font-size: 11px;
+    margin: 0 1rem;
+}
 
 
-  /* #endregion ****---> Header <---**** */
+/* #endregion ****---> Header <---**** */
 
 
-  /* #region ****---> Main <---**** */
+/* #region ****---> Main <---**** */
 
-  .title_dropbox_users {
-      width: 1076px; 
-  }
+.title_dropbox_users {
+    width: 1076px; 
+}
 
-  /* #endregion ****---> Main <---**** */
+/* #endregion ****---> Main <---**** */
 
 
 
-  /* #region ****---> Footer <---**** */
+/* #region ****---> Footer <---**** */
 
-  footer {
-      background-color: var(--footer-bgcolor);
-  }
+footer {
+     background-color: var(--footer-bgcolor);
+}
 
-  /* #endregion ****---> Footer <---**** */
+/* #endregion ****---> Footer <---**** */
