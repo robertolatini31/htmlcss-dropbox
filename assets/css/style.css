@@ -84,11 +84,12 @@
     content: '';
     display: table;
     clear: both;
-    width: 90%; /* ******** TO CHANGE ** TO CHANGE *********** */
+    width: 100%; 
 }
 
 [class^="col_"] {
     float: left;
+    border: 2px solid white; /* to removeeeee */
 }
 
 .text_left {
@@ -97,6 +98,10 @@
 
 .text_right {
     text-align: right;
+}
+
+.col_30 {
+    width: 30%;
 }
 
 .col_33 {
@@ -127,7 +132,7 @@
     width: 1400px;
 }
 
-.small_container {
+.small_container_top, .small_container_bottom {
     width: 1200px;
 }
 
@@ -149,6 +154,8 @@
 
   /* #region ****---> Main <---**** */
 
-  
+  .title_dropbox_users {
+      width: 1200px; 
+  }
 
-  /* #endregion ****---> Header <---**** */
+  /* #endregion ****---> Main <---**** */
