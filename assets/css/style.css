@@ -137,7 +137,7 @@
     width: 20%;
 }
 
-.col_30 {
+.col_30s {
     width: 30.3333%;
 }
 
@@ -360,7 +360,7 @@ a {
     font-size: 1rem;
 } 
 
-.plans .col_30 {
+.plans .col_30s {
     border: 1px solid var(--border-color);
 }
 
