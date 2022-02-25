@@ -436,7 +436,9 @@ a {
     font-size: 14px;
 }
 
-.standard .highlights:last-child {
+.standard .highlights:last-child ,
+.advanced .highlights:last-child 
+{
     margin-bottom: 154px;
 }
 
