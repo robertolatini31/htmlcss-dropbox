@@ -537,6 +537,38 @@ a {
 
 /* #region *** Business *** */
 
+.business {
+    margin-bottom: 3rem;
+}
+
+.business h2 {
+    font-size: 35px;
+    padding: 1rem 0;
+}
+
+.tools .col_33 {
+    padding: 2rem;
+}
+
+.tools img {
+    max-width: 100%;
+}
+
+.tools h4 {
+    font-size: 20px;
+    padding-bottom: 1.5rem
+}
+
+.tools p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 30px;
+}
+
+.tools span {
+    text-decoration: underline;
+}
+
 
 
 /* #region *** Business *** */
