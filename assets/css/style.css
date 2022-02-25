@@ -83,7 +83,7 @@
 
 .btn_small {
     background-color: var(--btn-bgcolor);
-    color: white;
+    color: var(--light-bgcolor);
     padding: 4px 13px;
 }
 
@@ -91,10 +91,25 @@
     text-decoration: underline;
 }
 
-.row {
+.big_container {
+    width: 1160px;
+}
+
+.small_container_top, .small_container_bottom {
+    width: 972px;
+}
+
+
+/* *** Grid *** */
+
+
+.row::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.row {
     width: 90%; 
 }
 
@@ -104,14 +119,6 @@
 
 [class^="col_"] {
     float: left;
-}
-
-.text_left {
-    text-align: left;
-}
-
-.text_right {
-    text-align: right;
 }
 
 .col_20 {
@@ -142,17 +149,24 @@
     width: 100%; 
 }
 
+
+/* *** Text ***  */
+
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+
+
 .center {
     margin: 0 auto;
 }
 
-.big_container {
-    width: 1400px;
-}
 
-.small_container_top, .small_container_bottom {
-    width: 1200px;
-}
 
 /* #endregion Utility  */
 
@@ -171,9 +185,6 @@ a {
 
 /* #region ****---> Header <---**** */
 
-header {
-    background-color: var(--header-bgcolor);
-}
 
 .navbar .row {
     padding: 1rem;
@@ -201,6 +212,11 @@ header {
 
 .title_dropbox_users {
     width: 1076px; 
+}
+
+.hero_title {
+    padding: 2rem 2rem;
+    font-size: 64px;
 }
 
 /* #endregion ****---> Main <---**** */
