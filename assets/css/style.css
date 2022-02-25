@@ -138,7 +138,7 @@
 }
 
 .col_30 {
-    width: 30%;
+    width: 30.3333%;
 }
 
 .col_33 {
@@ -360,8 +360,21 @@ a {
     font-size: 1rem;
 } 
 
-.plans .col_33 {
+.plans .col_30 {
     border: 1px solid var(--border-color);
+}
+
+.plans .professional{
+   margin-right: 3%;
+}
+
+.plans .standard {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.plans .advanced {
+    margin-left: 3%;
 }
 
 .plans .slot {
