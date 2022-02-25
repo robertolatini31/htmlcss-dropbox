@@ -223,6 +223,12 @@ a {
     width: 1076px; 
 }
 
+.hero {
+    background-color: var(--header-bgcolor);
+    height: 600px;
+    margin-bottom: 8rem;
+}
+
 .hero>.big_container {
     margin-bottom: 2rem;
 }
@@ -243,6 +249,11 @@ a {
 .hero .col_40 i {
     padding: 1rem 2rem;
     font-size: 33px;
+}
+
+.hero .col_60 img {
+    padding-top: 2rem;
+    max-width: 712px;
 }
 
 /* #endregion ****---> Main <---**** */
