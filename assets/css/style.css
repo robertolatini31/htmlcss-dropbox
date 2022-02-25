@@ -4,6 +4,8 @@
     --footer-bgcolor: #000000;
     --btn-bgcolor: #0061ff;
     --checkbox-color: #0061FF;
+    --border-color: #D0D0D3;
+    --duration-color: #74818E;
 }
 
 * {
@@ -127,6 +129,10 @@
     float: left;
 }
 
+.col_6 {
+    width: 6%;
+}
+
 .col_20 {
     width: 20%;
 }
@@ -149,6 +155,14 @@
 
 .col_60 {
     width: 60%;
+}
+
+.col_80 {
+    width: 80%;
+}
+
+.col_94 {
+    width: 94%;
 }
 
 .col_100 {
@@ -336,6 +350,90 @@ a {
 
 .plans .check {
    margin-right: 1rem;
+   margin-bottom: 2rem;
+}
+
+.plans .banner {
+    text-align: center;
+    padding: 0.7rem;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1rem;
+} 
+
+.plans .col_33 {
+    border: 1px solid var(--border-color);
+}
+
+.plans .slot {
+    padding-left: 25px;
+    padding-top: 28px;
+}
+
+.plans .slot h4 {
+    font-size: 20px;
+}
+
+.slot>.price {
+    padding-top: 1rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.slot>.duration {
+    font-size: 0.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
+    color: var(--duration-color);
+}
+
+.slot>.users , 
+.slot>.storage ,
+.slot .functions
+{
+    padding: 1rem 0;
+    font-size: 0.8rem;
+}
+
+.plans .free_trial {
+    text-align: center;
+    margin: 2rem 25px 1rem 25px;
+}
+
+.plans .buy_now {
+    padding-top: 1rem;
+    padding-left: 25px;
+    font-size: 0.8rem;
+}
+
+.plans .buy_now a {
+    color: var(--btn-bgcolor);
+    text-decoration: underline;
+}
+
+.highlights h5 {
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+.highlights ul {
+    list-style: none;
+}
+
+.highlights li {
+    padding-bottom: 1.5rem;
+}
+
+.highlights:last-child {
+    margin-bottom: 200px;
+}
+
+.highlights .col_6 {
+    color: var(--btn-bgcolor);
+    font-size: 1rem;
+}
+
+.highlights .col_94 {
+    font-size: 14px;
 }
 
 /* #endregion ****---> Main <---**** */
