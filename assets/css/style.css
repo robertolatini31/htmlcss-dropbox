@@ -297,7 +297,8 @@ a {
 
 /* #region ****---> Main <---**** */
 
-/* *** Hero *** */
+
+/* #region *** Hero *** */
 
 .hero {
     background-color: var(--header-bgcolor);
@@ -337,8 +338,11 @@ a {
     max-width: 712px;
 }
 
+/* #endregion *** Hero *** */
 
-/* *** Plans *** */
+
+
+/* #region *** Plans *** */
 
 .title_plans{
     padding: 3rem;
@@ -487,7 +491,18 @@ a {
     padding: 0.5rem 2.5rem;
 }
 
+/* #endregion *** Plans *** */
+
 /* #endregion ****---> Main <---**** */
+
+
+/* #region *** Partner *** */
+
+.dropbox_partner .img_partner img {
+    max-width: 520px;
+}
+
+/* #endregion *** Partner *** */
 
 
 
