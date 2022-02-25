@@ -423,7 +423,7 @@ a {
     padding-bottom: 1.5rem;
 }
 
-.highlights:last-child {
+.professional .highlights:last-child {
     margin-bottom: 200px;
 }
 
@@ -434,6 +434,10 @@ a {
 
 .highlights .col_94 {
     font-size: 14px;
+}
+
+.standard .highlights:last-child {
+    margin-bottom: 154px;
 }
 
 /* #endregion ****---> Main <---**** */
