@@ -456,6 +456,14 @@ a {
     margin-bottom: 154px;
 }
 
+.sales_office {
+    border: 1px solid var(--border-color);
+}
+
+.sales_office .banner {
+    border-bottom: 1px solid var(--border-color);
+}
+
 /* #endregion ****---> Main <---**** */
 
 
