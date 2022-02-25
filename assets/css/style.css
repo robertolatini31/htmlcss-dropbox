@@ -92,7 +92,6 @@
 .btn_big {
     background-color: var(--btn-bgcolor);
     color: var(--light-bgcolor);
-    margin-left: 2rem;
     padding: 0.5rem 1rem;
     font-size: small;
     font-weight: 600;
@@ -329,6 +328,10 @@ a {
     font-size: 33px;
 }
 
+.hero .btn_big {
+    margin-left: 2rem;
+}
+
 .hero .col_60 img {
     padding-top: 2rem;
     max-width: 712px;
@@ -458,10 +461,30 @@ a {
 
 .sales_office {
     border: 1px solid var(--border-color);
+    margin: 2.5rem 0;
 }
 
 .sales_office .banner {
     border-bottom: 1px solid var(--border-color);
+}
+
+.text_sales_office {
+    padding: 1rem;
+}
+
+.text_sales_office h4,
+.text_sales_office h5 {
+    padding-bottom: 1rem;
+}
+
+.text_sales_office p {
+    font-size: 12px;
+}
+
+.contact_office {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.5rem 2.5rem;
 }
 
 /* #endregion ****---> Main <---**** */
