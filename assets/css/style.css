@@ -338,9 +338,9 @@ a {
 /* *** Plans *** */
 
 .title_plans{
-    text-align: center;
     padding: 3rem;
     font-size: 35px;
+    padding-left: 230px;
 }
 
 
@@ -380,6 +380,7 @@ a {
 .plans .slot {
     padding-left: 25px;
     padding-top: 28px;
+    padding-right: 15px;
 }
 
 .plans .slot h4 {
@@ -446,7 +447,7 @@ a {
 }
 
 .highlights .col_94 {
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .standard .highlights:last-child ,
