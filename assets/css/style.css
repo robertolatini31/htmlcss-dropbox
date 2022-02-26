@@ -8,6 +8,9 @@
     --duration-color: #74818E;
     --designit-bgcolor: #A2D39B;
     --designit_border-color: #D0E9CD;
+    --arizona-bgcolor: #61082B;
+    --florida-bgcolor: #0093CE;
+    --topps-bgcolor: #FF1C1C;
 }
 
 * {
@@ -148,6 +151,10 @@
 
 .col_30s {
     width: 30.3333%;
+}
+
+.col_30 {
+    width: 30%;
 }
 
 .col_33 {
@@ -614,33 +621,37 @@ a {
 
  /* *** Logos ***  */
 
+.logos .img_logos {
+    height: 220px;
+}
 
- .img_logos {
-     text-align: center;
- }
+.img_logos>img {
+    max-width: 60%;
+    filter: invert();
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
- .img_logos .square {
-     width: 100%;
- }
-
-.img_logos .designit {
+.logos .designit {
     background-color: var(--designit-bgcolor);
     border: 5px solid var(--designit_border-color);
 }
 
-.img_logos img {
-    filter: invert();
+.logos .arizona {
+    background-color: var(--arizona-bgcolor);
+    border: 5px solid var(--arizona-bgcolor);
 }
 
-.designit img {
-    max-width: 60%;
-    margin: 80px 0;
+.logos .florida {
+    background-color: var(--florida-bgcolor);
+    border: 5px solid var(--florida-bgcolor);
 }
 
-
-
-
-
+.logos .topps {
+    background-color: var(--topps-bgcolor);
+    border: 5px solid var(--topps-bgcolor);
+}
 
 /* #endregion ****---> Customer_Team <---**** */
 
