@@ -547,7 +547,7 @@ a {
 }
 
 .tools .col_33 {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .tools img {
@@ -571,7 +571,36 @@ a {
 
 
 
-/* #region *** Business *** */
+/* #endregion *** Business *** */
+
+
+
+/* #region ****---> Customer_Team <---**** */
+
+.customer_team {
+    margin-top: 2rem;
+}
+
+.customer_team>.small_container {
+    padding: 1rem;
+}
+
+.customer_team h2 {
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.title_customer {
+    padding-right: 28rem;
+}
+
+.title_customer>a {
+    color: var(--btn-bgcolor);
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+/* #endregion ****---> Customer_Team <---**** */
+
 
 
 /* #region ****---> Footer <---**** */
