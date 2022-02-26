@@ -728,6 +728,42 @@ a {
 /* #endregion ****---> Customer_Team <---**** */
 
 
+/* #region ***---> Faq <---*** */
+
+.faq {
+    margin-bottom: 3rem;
+}
+
+.faq .small_container {
+    padding: 1rem;
+}
+
+.faq_box  {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.faq_box>h2 {
+    margin-bottom: 3rem;
+    font-size: 35px;
+}
+
+.faq_box span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.question {
+    padding: 2rem 0;
+}
+
+.faq_box i {
+    right: 10px;
+}
+
+
+/* #endregion ***---> Faq <---*** */
+
+
 
 /* #region ****---> Footer <---**** */
 
