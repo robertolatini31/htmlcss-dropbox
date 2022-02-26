@@ -290,6 +290,12 @@ a {
     color: black;
 }
 
+hr {
+    width: 80px;
+    color: var(--border-color);
+    margin: 1rem 25px;
+}
+
 /* #endregion Common  */
 
 
@@ -371,9 +377,8 @@ a {
 /* #region *** Plans *** */
 
 .title_plans{
-    padding: 3rem;
+    padding: 3rem 0;
     font-size: 35px;
-    padding-left: 230px;
 }
 
 
@@ -414,6 +419,7 @@ a {
     padding-left: 25px;
     padding-top: 28px;
     padding-right: 15px;
+    margin-bottom: 2rem;
 }
 
 .plans .slot h4 {
@@ -449,7 +455,8 @@ a {
 }
 
 .plans .buy_now {
-    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding-left: 25px;
     font-size: 0.8rem;
 }
@@ -520,7 +527,11 @@ a {
 .contact_office {
     text-align: center;
     margin-top: 2rem;
-    padding: 0.5rem 2.5rem;
+    padding: 0.5rem 0rem;
+}
+
+.contact_office .btn_big {
+    padding: 0.5rem 3rem;
 }
 
 /* #endregion *** Plans *** */
@@ -703,7 +714,7 @@ a {
 
 /* *** Agency ***  */
 
-.bottom_row_agency {
+.agency_section {
     background-color: var(--header-bgcolor);
     margin-bottom: 2rem;
 }
@@ -711,12 +722,12 @@ a {
 .text_agency {
     font-size: 28px;
     font-weight: 700;
-    padding: 4rem 12rem;
+    padding: 4rem 4rem 4rem 1rem;
     color: var(--text_agency-color);
 }
 
 .btn_agency {
-    padding: 4rem 12rem;
+    padding: 4rem 5rem;
 }
 
 .btn_agency a {
@@ -810,5 +821,9 @@ select {
     color: var(--footer_language-color);
 }
 
+.language hr {
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
 
 /* #endregion ****---> Footer <---**** */
