@@ -292,7 +292,7 @@ a {
 
 
 
-/* #region ****---> Header <---**** */
+/* #region ***********---> Header <---**** */
 
 
 .navbar .row {
@@ -317,7 +317,9 @@ a {
 /* #endregion ****---> Header <---**** */
 
 
-/* #region ****---> Main <---**** */
+
+
+/* #region **********---> Main <---**** */
 
 
 /* #region *** Hero *** */
@@ -520,8 +522,6 @@ a {
 }
 
 /* #endregion *** Plans *** */
-
-/* #endregion ****---> Main <---**** */
 
 
 /* #region *** Partner *** */
@@ -728,6 +728,7 @@ a {
 /* #endregion ****---> Customer_Team <---**** */
 
 
+
 /* #region ***---> Faq <---*** */
 
 .faq {
@@ -763,6 +764,8 @@ a {
 
 /* #endregion ***---> Faq <---*** */
 
+/* #endregion ****---> Main <---**** */
+
 
 
 /* #region ****---> Footer <---**** */
@@ -770,5 +773,30 @@ a {
 footer {
      background-color: var(--footer-bgcolor);
 }
+
+.link_footer .col_20 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.link_footer h4 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.link_footer ul {
+    list-style: none;
+}
+
+.link_footer li {
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.link_footer a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* #endregion ****---> Footer <---**** */
