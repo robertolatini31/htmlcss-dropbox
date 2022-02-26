@@ -11,6 +11,11 @@
     --arizona-bgcolor: #61082B;
     --florida-bgcolor: #0093CE;
     --topps-bgcolor: #FF1C1C;
+    --bicycle-bgcolor: #D5001F;
+    --hearst-bgcolor: #B4D0E7;
+    --lonely-bgcolor: #0D2481;
+    --clear-bgcolor: #FFD830;
+    --text_agency-color: #61082B;
 }
 
 * {
@@ -602,6 +607,7 @@ a {
 
 .customer_team>.small_container {
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 .customer_team h2 {
@@ -620,6 +626,8 @@ a {
 }
 
  /* *** Logos ***  */
+
+
 
 .logos .img_logos {
     height: 220px;
@@ -651,6 +659,70 @@ a {
 .logos .topps {
     background-color: var(--topps-bgcolor);
     border: 5px solid var(--topps-bgcolor);
+}
+
+.logos .bicycle {
+    background-color: var(--bicycle-bgcolor);
+    border: 5px solid var(--bicycle-bgcolor);
+}
+
+.logos .hearst {
+    background-color: var(--hearst-bgcolor);
+    border: 5px solid var(--hearst-bgcolor);
+}
+
+.logos .lonely {
+    background-color: var(--lonely-bgcolor);
+    border: 5px solid var(--lonely-bgcolor);
+}
+
+.logos .clear {
+    background-color: var(--clear-bgcolor);
+    border: 5px solid var(--clear-bgcolor);
+}
+
+
+/* *** Text_logos ***  */
+
+.text_logos img {
+    max-width: 200px;
+    padding: 2rem;
+}
+
+.text_logos p {
+    font-size: 14px;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    line-height: 20px;
+    margin-bottom: 3rem;
+}
+
+
+
+/* *** Agency ***  */
+
+.bottom_row_agency {
+    background-color: var(--header-bgcolor);
+    margin-bottom: 2rem;
+}
+
+.text_agency {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 4rem 12rem;
+    color: var(--text_agency-color);
+}
+
+.btn_agency {
+    padding: 4rem 12rem;
+}
+
+.btn_agency a {
+    color: black;
+    background-color: white;
+    padding: 0.4rem 4rem;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 /* #endregion ****---> Customer_Team <---**** */
