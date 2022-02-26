@@ -16,6 +16,8 @@
     --lonely-bgcolor: #0D2481;
     --clear-bgcolor: #FFD830;
     --text_agency-color: #61082B;
+    --footer_language-color: #999999;
+
 }
 
 * {
@@ -796,6 +798,16 @@ footer {
 .link_footer a {
     text-decoration: none;
     color: white;
+}
+
+.link_footer .language {
+    padding: 2rem;
+}
+
+select {
+    border: none;
+    background-color: transparent;
+    color: var(--footer_language-color);
 }
 
 
