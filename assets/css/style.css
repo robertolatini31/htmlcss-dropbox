@@ -716,7 +716,7 @@ hr {
 
 
 
-/* #region ****---> Footer <---**** */
+/* #region *******---> Footer <---**** */
 
 footer {
      background-color: var(--footer-bgcolor);
@@ -768,4 +768,4 @@ select {
     vertical-align: middle;
 }
 
-/* #endregion ****---> Footer <---**** */
+/* #endregion *******---> Footer <---**** */
