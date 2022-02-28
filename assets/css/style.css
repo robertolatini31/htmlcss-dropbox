@@ -31,70 +31,6 @@
 /* #region Utility  */
 
 
-/* to remove */
-
-.red {
-    background-color: rgb(253, 72, 72);
-}
-
-.blue {
-    background-color: rgb(88, 88, 255);
-}
-
-.green {
-    background-color: rgb(0, 124, 0);
-}
-
-.yellow {
-    background-color: rgb(255, 255, 94);
-}
-
-.orange {
-    background-color: rgb(255, 184, 52);
-}
-
-.violet {
-    background-color: violet;
-}
-
-.h_80 {
-    height: 80px;
-}
-
-.h_200 {
-    height: 200px;
-}
-
-.h_300 {
-    height: 300px;
-}
-
-.h_400 {
-    height: 400px;
-}
-
-.h_600 {
-    height: 600px;
-}
-
-.h_800 {
-    height: 800px;
-}
-
-.h_1200 {
-    height: 1200px;
-}
-
-.bord {
-    border: 2px solid black;
-}
-
-.marg {
-    margin: 2rem;
-}
-
-/* end to remove  */
-
 .relative {
     position: relative;
 }
@@ -208,6 +144,8 @@
 .center {
     margin: 0 auto;
 }
+
+
 
 /* #region **** Check ****  */
 
@@ -326,7 +264,6 @@ hr {
 
 
 
-
 /* #region **********---> Main <---**** */
 
 
@@ -400,6 +337,7 @@ hr {
 
 .plans .col_30s {
     border: 1px solid var(--border-color);
+    min-height: 1000px;
 }
 
 .plans .professional{
@@ -418,7 +356,7 @@ hr {
 .plans .slot {
     padding-left: 25px;
     padding-top: 28px;
-    padding-right: 15px;
+    padding-right: 0;
     margin-bottom: 2rem;
 }
 
@@ -479,24 +417,20 @@ hr {
     padding-bottom: 1.5rem;
 }
 
-.professional .highlights:last-child {
-    margin-bottom: 200px;
+.highlights .col_6 {
+    margin-right: 5px;
 }
+
 
 .highlights .col_6 {
     color: var(--btn-bgcolor);
     font-size: 1rem;
 }
 
-.highlights .col_94 {
+.highlights .col_80 {
     font-size: 0.8rem;
 }
 
-.standard .highlights:last-child ,
-.advanced .highlights:last-child 
-{
-    margin-bottom: 154px;
-}
 
 .sales_office {
     border: 1px solid var(--border-color);
