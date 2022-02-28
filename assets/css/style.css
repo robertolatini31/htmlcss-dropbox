@@ -30,6 +30,10 @@
 
 /* #region Utility  */
 
+.disp_none {
+    display: none;
+}
+
 .inline {
     display: inline-block;
 }
@@ -786,7 +790,14 @@ li:hover {
     right: 10px;
 }
 
-
+.accordion p {
+    font-size: 14px;
+    padding-right: 2rem;
+    color: #606060;
+}
+.active_accordion:hover .accordion {
+    display: block;
+}
 /* #endregion ***---> Faq <---*** */
 
 
