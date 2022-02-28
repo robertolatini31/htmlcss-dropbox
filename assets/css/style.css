@@ -17,7 +17,7 @@
     --clear-bgcolor: #FFD830;
     --text_agency-color: #61082B;
     --footer_language-color: #999999;
-
+    --drop_menu-bgcolor: #f2eee8;
 }
 
 * {
@@ -30,6 +30,13 @@
 
 /* #region Utility  */
 
+.inline {
+    display: inline-block;
+}
+
+.invisible {
+    visibility: hidden;
+}
 
 .relative {
     position: relative;
@@ -241,7 +248,7 @@ hr {
 
 
 .navbar .row {
-    padding: 1rem;
+    padding: 0 1rem;
   }
 
 .navbar {
@@ -256,6 +263,58 @@ hr {
 .navbar a {
     font-size: 11px;
     margin: 0 1rem;
+}
+
+.drop_menu {
+    padding: 1rem 0;
+}
+
+.drop_content {
+    top: 54px;
+    left: 0px;
+    padding: 1rem 0;
+    background-color: var(--drop_menu-bgcolor);
+}
+
+.drop_content.drop_why_menu {
+    width: 667px;
+}
+
+.drop_content.drop_functions_menu {
+    width: 867px;
+}
+
+.drop_menu:hover {
+    background-color: var(--drop_menu-bgcolor);
+}
+
+.drop_menu:hover .drop_content{
+    visibility: visible;
+}
+
+.drop_content .row {
+    padding: 0;
+}
+.drop_menu h5 {
+    padding-left: 1rem;
+}
+
+.drop_menu ul {
+    list-style: none;
+}
+
+.drop_menu li {
+    padding: 0.3rem 0;
+    padding-right: 96px;
+    padding-left: 1rem;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.drop_content a {
+    margin: 0;
 }
 
 
