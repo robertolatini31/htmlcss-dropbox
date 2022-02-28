@@ -271,16 +271,24 @@ hr {
 
 .drop_content {
     top: 54px;
-    left: 0px;
     padding: 1rem 0;
     background-color: var(--drop_menu-bgcolor);
 }
 
-.drop_content.drop_why_menu {
+.drop_left {
+    left: 0;
+}
+
+.drop_content.drop_right {
+    width: 250px;
+    right: 0px;
+}
+
+.drop_left.drop_why_menu {
     width: 667px;
 }
 
-.drop_content.drop_functions_menu {
+.drop_left.drop_functions_menu {
     width: 867px;
 }
 
@@ -303,10 +311,21 @@ hr {
     list-style: none;
 }
 
-.drop_menu li {
+.drop_left li {
     padding: 0.3rem 0;
     padding-right: 96px;
     padding-left: 1rem;
+}
+
+.drop_right li {
+    text-align: left;
+    padding: 0.3rem 0;
+    padding-right: 112px;
+    padding-left: 1rem;
+}
+
+.drop_contact li {
+    padding-right: 155px;
 }
 
 li:hover {
