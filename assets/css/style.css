@@ -66,7 +66,7 @@
     width: 972px;
 }
 
-/* *** Grid *** */
+/* #region *** Grid *** */
 
 
 .row::after{
@@ -127,8 +127,10 @@
     width: 100%; 
 }
 
+/* #endregion *** Grid *** */
 
-/* *** Text ***  */
+
+/* #region *** Text ***  */
 
 
 .text_left {
@@ -144,6 +146,7 @@
     margin: 0 auto;
 }
 
+/* #endregion *** Text ***  */
 
 
 /* #region **** Check ****  */
@@ -210,10 +213,7 @@
 /* #endregion **** Check ****  */
 
 
-
-
 /* #endregion Utility  */
-
 
 
 /* #region Common  */
@@ -307,7 +307,6 @@ hr {
 }
 
 /* #endregion *** Hero *** */
-
 
 
 /* #region *** Plans *** */
@@ -509,7 +508,6 @@ hr {
 /* #endregion *** Partner *** */
 
 
-
 /* #region *** Business *** */
 
 .business {
@@ -547,7 +545,6 @@ hr {
 
 
 /* #endregion *** Business *** */
-
 
 
 /* #region ****---> Customer_Team <---**** */
@@ -679,7 +676,6 @@ hr {
 /* #endregion ****---> Customer_Team <---**** */
 
 
-
 /* #region ***---> Faq <---*** */
 
 .faq {
@@ -714,6 +710,7 @@ hr {
 
 
 /* #endregion ***---> Faq <---*** */
+
 
 /* #endregion ****---> Main <---**** */
 
