@@ -66,7 +66,6 @@
     width: 972px;
 }
 
-
 /* *** Grid *** */
 
 
@@ -229,7 +228,7 @@ a {
 }
 
 hr {
-    width: 80px;
+    width: 45px;
     color: var(--border-color);
     margin: 1rem 25px;
 }
@@ -443,6 +442,7 @@ hr {
 
 .text_sales_office {
     padding: 1rem;
+    padding-right: 0;
 }
 
 .text_sales_office h4,
@@ -464,8 +464,12 @@ hr {
     padding: 0.5rem 0rem;
 }
 
+.contact_office a {
+    padding: 0.5rem 68px;
+}
+
 .contact_office .btn_big {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 65px;
 }
 
 /* #endregion *** Plans *** */
@@ -752,12 +756,19 @@ footer {
 select {
     border: none;
     background-color: transparent;
-    color: var(--footer_language-color);
+    color: #99999991;
 }
 
 .language hr {
+    width: 100px;
     margin-left: 0;
     margin-bottom: 3rem;
+}
+
+.language img {
+    max-width: 18px;
+    filter: contrast(0.0);
+    vertical-align: middle;
 }
 
 /* #endregion ****---> Footer <---**** */
