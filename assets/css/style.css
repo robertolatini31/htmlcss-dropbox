@@ -260,13 +260,13 @@ hr {
 }
 
 .navbar img {
-    width: 90px;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 .navbar a {
-    font-size: 11px;
+    font-size: 14px;
     margin: 0 1rem;
+    font-weight: 500;
 }
 
 .drop_menu {
